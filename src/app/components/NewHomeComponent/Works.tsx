@@ -59,7 +59,7 @@ const Works = (): JSX.Element => {
           })}
         </div>
         <div className="flex gap-3.5 mt-8 items-center">
-          <Link href="/book-demo">
+          <Link href="/contact">
             <button className="shq-btn-primary">Book a demo</button>
           </Link>
           <Image

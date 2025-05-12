@@ -23,7 +23,7 @@ const Partnership = (): JSX.Element => {
   return (
     <div className="container">
       <div
-        className={`bg-[#faf6f1] max-w-[1200px] lg:mx-auto lg:my-36 lg:pl-16 lg:rounded-2xl grid grid-cols-1 lg:grid-cols-2 lg:gap-16 relative justify-end`}
+        className={`bg-[#faf6f1] max-w-[1040px] lg:mx-auto lg:my-36 lg:pl-16 lg:rounded-2xl grid grid-cols-1 lg:grid-cols-2 lg:gap-16 relative justify-end`}
       >
         <Image
           src={plogo}
@@ -42,6 +42,12 @@ const Partnership = (): JSX.Element => {
             North Carolina Startup Problem
             <br />
             <span className="text-secondary">With 6sense</span>
+          </h1>
+          <h1 className="font-bold text-4xl hidden lg:block leading-11 text-primary">
+            Pattern50 Solving
+            <br />
+            North Carolina Startup Problem
+            <span className="text-secondary"> With 6sense</span>
           </h1>
 
           <p className="my-5 leading-6 font-normal text-base lg:text-lg">
@@ -70,7 +76,7 @@ const Partnership = (): JSX.Element => {
           </div>
 
           <div className="flex gap-3.5 lg:mt-10 mt-4 mb-6 lg:mb-0">
-            <Link href="/book-demo">
+            <Link href="/contact">
               <button className="shq-btn-primary">Book a demo</button>
             </Link>
           </div>

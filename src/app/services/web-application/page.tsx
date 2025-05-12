@@ -16,7 +16,7 @@ import {
 const WebApplication = (): JSX.Element => {
   return (
     <>
-      <div>
+      <div className="">
         <Hero
           achievements={achievements}
           pageName="web-application"

@@ -45,7 +45,7 @@ const Hero = ({
   pageName,
 }: IHeroProps): JSX.Element => {
   return (
-    <div className="bg-hero">
+    <div className="bg-hero px-3">
       <div
         className={`max-w-7xl mx-auto ${
           pageName === "home" ? "py-16" : "py-16 md:py-28"
@@ -67,32 +67,34 @@ const Hero = ({
 
             <div className="mt-5 flex justify-center md:justify-start">
               <div className="space-y-1">
-                {achievements.map((item) => {return (
-                  <div
-                    key={item.id}
-                    className="flex gap-1 md:gap-2 font-helvetica"
-                  >
-                    <div className="flex-shrink-0">
-                      <Image
-                        loading="eager"
-                        src={item.image}
-                        alt={item.alt}
-                        width={22}
-                        height={22}
-                        className={` w-[22px] h-[22px] flex-shrink-0 ${
-                          pageName === "home" ? "" : ""
-                        }`}
-                      />
+                {achievements.map((item) => {
+                  return (
+                    <div
+                      key={item.id}
+                      className="flex gap-1 md:gap-2 font-helvetica"
+                    >
+                      <div className="flex-shrink-0">
+                        <Image
+                          loading="eager"
+                          src={item.image}
+                          alt={item.alt}
+                          width={22}
+                          height={22}
+                          className={` w-[22px] h-[22px] flex-shrink-0 ${
+                            pageName === "home" ? "" : ""
+                          }`}
+                        />
+                      </div>
+                      <p>
+                        {item.contentStart}{" "}
+                        <span className="text-[#252B42] font-bold">
+                          {item.contentHighlight}
+                        </span>{" "}
+                        {item.contentEnd}
+                      </p>
                     </div>
-                    <p>
-                      {item.contentStart}{" "}
-                      <span className="text-[#252B42] font-bold">
-                        {item.contentHighlight}
-                      </span>{" "}
-                      {item.contentEnd}
-                    </p>
-                  </div>
-                )})}
+                  );
+                })}
               </div>
             </div>
 

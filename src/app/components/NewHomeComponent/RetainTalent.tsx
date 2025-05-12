@@ -89,7 +89,7 @@ const RetainTalent = (): JSX.Element => {
                   height="100%"
                   src="https://www.youtube.com/embed/8guP6F56TPk?autoplay=1"
                   title="YouTube video player"
-                  frameBorder="0"
+                  // frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   className="w-full h-full min-h-[300px] md:min-h-[400px] lg:min-h-[500px]"

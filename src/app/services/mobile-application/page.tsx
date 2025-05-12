@@ -16,7 +16,7 @@ import {
 const MobileApplication = (): JSX.Element => {
   return (
     <>
-      <div>
+      <div className="">
         <Hero
           achievements={achievements}
           pageName="mobile-application"

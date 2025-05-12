@@ -48,7 +48,7 @@ const Hero = (): JSX.Element => {
           </div>
 
           <div className="lg:flex lg:gap-3.5 lg:mt-10 mt-8 mb-6">
-            <Link href="/book-demo">
+            <Link href="/contact">
               <button className="shq-btn-primary">Book a demo</button>
             </Link>
             <Image

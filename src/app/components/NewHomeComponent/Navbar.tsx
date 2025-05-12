@@ -21,7 +21,7 @@ const Navbar = (): JSX.Element => {
 
   return (
     <div className="sticky top-0 z-50">
-      <div className="bg-white drop-shadow-md h-20 py-5 relative z-50 ">
+      <div className="bg-white drop-shadow-md h-20 py-5 relative z-50">
         <div className="px-4 md:px-0 max-w-7xl mx-auto flex justify-between items-center h-full">
           {/* Logo Section */}
           <div>

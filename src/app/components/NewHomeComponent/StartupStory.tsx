@@ -62,7 +62,7 @@ const StartupStory = (): JSX.Element => {
           </div>
 
           <div className="flex gap-3.5 lg:mt-10 mt-4">
-            <Link href="/book-demo">
+            <Link href="/contact">
               <button className="shq-btn-primary">Book a demo</button>
             </Link>{" "}
           </div>

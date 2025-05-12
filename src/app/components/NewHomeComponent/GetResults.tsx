@@ -41,7 +41,7 @@ const GetResults = (): JSX.Element => {
             </p>
 
             <div className="lg:flex gap-3.5 mt-10 hidden">
-              <Link href="/book-demo">
+              <Link href="/contact">
                 <button className="shq-btn-primary">Book a demo</button>
               </Link>
             </div>

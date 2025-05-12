@@ -28,6 +28,7 @@ const Navbar = (): JSX.Element => {
             <Link href="/">
               <div>
                 <Image
+                  className="pl-3"
                   src="/images/6senseLogo.svg"
                   alt="6sense Logo - Custom Software Development Company"
                   width={148}
