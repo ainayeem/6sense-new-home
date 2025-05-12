@@ -1,9 +1,8 @@
 "use client";
 import { Facebook, Linkedin } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
-const Footer = () => {
+const Footer = (): JSX.Element => {
   const date = new Date();
   const currentYear = date.getFullYear();
 

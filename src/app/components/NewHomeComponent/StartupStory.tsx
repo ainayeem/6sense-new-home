@@ -38,7 +38,7 @@ const StartupStory = (): JSX.Element => {
             Startup Story
           </h2>
           <h1 className="font-bold text-4xl lg:text-5xl leading-11 lg:leading-15 text-primary">
-            Empowering the brave EV revolution with
+            Empowering the <br /> brave EV revolution <br /> with
             <span className="text-secondary"> Charge OnSite</span>
           </h1>
 
@@ -50,7 +50,7 @@ const StartupStory = (): JSX.Element => {
           <div className="space-y-3 lg:space-y-4 leading-6 font-normal text-xs lg:text-lg">
             {features.map((text, index) => {
               return (
-                <div key={index} className="flex gap-2">
+                <div key={index} className="flex gap-2 items-center">
                   <BadgeCheck className="text-primary" />
                   <p>
                     <span className="font-bold">{text.boldtext}</span>{" "}

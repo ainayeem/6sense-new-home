@@ -10,5 +10,6 @@
 .map {
   background: url("../../../assets/Bangladesh.svg"), #fff;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: calc(50% + 100px) center;
+  background-size: contain;
 }

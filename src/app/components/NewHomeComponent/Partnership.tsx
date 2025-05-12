@@ -30,7 +30,7 @@ const Partnership = (): JSX.Element => {
           alt="Pattern50"
           width={500}
           height={500}
-          className="absolute hidden lg:block lg:-top-20 lg:-right-16 h-40 w-32"
+          className="absolute hidden lg:block lg:-top-24 lg:-right-24 h-40 w-40"
         />
         <div className="lg:py-8 py-6 px-6 lg:px-0">
           <h2 className="font-bold text-2xl text-primary lg:mb-8 mb-4">
@@ -52,7 +52,10 @@ const Partnership = (): JSX.Element => {
           <div className="space-y-3 lg:space-y-4 leading-6 font-normal text-xs lg:text-lg">
             {features.map((value, index) => {
               return (
-                <div key={index} className="flex gap-2 font-normal text-xs">
+                <div
+                  key={index}
+                  className="flex gap-2 font-normal text-xs items-center"
+                >
                   <BadgeCheck className="text-primary" />
                   <p>
                     <span className="font-semibold text-xs">
@@ -66,7 +69,7 @@ const Partnership = (): JSX.Element => {
             })}
           </div>
 
-          <div className="flex gap-3.5 lg:mt-10 mt-4">
+          <div className="flex gap-3.5 lg:mt-10 mt-4 mb-6 lg:mb-0">
             <Link href="/book-demo">
               <button className="shq-btn-primary">Book a demo</button>
             </Link>

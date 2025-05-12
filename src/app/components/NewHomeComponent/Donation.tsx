@@ -10,21 +10,21 @@ const Donation = (): JSX.Element => {
       >
         <div className="w-full gap-4 hidden lg:flex">
           <Image
-            src={donate1}
+            src={donate2}
             alt="Partnership"
             width={500}
             height={500}
             className="w-[50%] h-full"
           />
           <Image
-            src={donate2}
+            src={donate1}
             alt="Partnership"
             width={500}
             height={500}
             className="w-[50%] h-[80%]"
           />
         </div>
-        <div className="py-8 px-6 lg:p-8 bg-[#faf6f1]">
+        <div className="py-8 px-6 lg:p-8 bg-[#faf6f1] lg:rounded-lg">
           <h1 className="font-bold text-4xl lg:text-4xl leading-10 lg:leading-15 text-primary">
             For every hire you do, we donate the first months 50% salary to a
             nonprofit.

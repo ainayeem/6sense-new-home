@@ -8,6 +8,7 @@ import styles from "./Hero.module.css";
 import img1 from "@/assets/hero-img/img-1.png";
 import img2 from "@/assets/hero-img/img-2.png";
 import img3 from "@/assets/hero-img/img-3.png";
+import getTeam from "@/assets/images/get-team.svg";
 // import getTeam from "@/assets/images/Get your team today!.svg";
 // import getTeam from "@/assets/images/Get your team today!.svg";
 
@@ -50,13 +51,13 @@ const Hero = (): JSX.Element => {
             <Link href="/book-demo">
               <button className="shq-btn-primary">Book a demo</button>
             </Link>
-            {/* <Image
+            <Image
               src={getTeam}
               alt="Get your team today!"
               width={500}
               height={500}
               className="w-40 -translate-y-1/2 hidden lg:block"
-            /> */}
+            />
           </div>
         </div>
 

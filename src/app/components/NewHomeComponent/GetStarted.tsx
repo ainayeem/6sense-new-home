@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const steps = [
   {
-    image: started1,
+    image: started3,
     title: "Step 1",
     description: "Get started in 60 seconds",
   },
@@ -15,7 +15,7 @@ const steps = [
     description: "Select your tech stack & team needs",
   },
   {
-    image: started3,
+    image: started1,
     title: "Step 3",
     description: "Get matched & start your free trial",
   },
@@ -24,12 +24,17 @@ const steps = [
 const GetStarted = (): JSX.Element => {
   return (
     <div className="container my-12 lg:my-32">
-      <h1 className="font-bold text-4xl lg:text-5xl leading-11 lg:leading-15 text-primary text-center">
+      <h1 className="font-bold text-4xl lg:text-5xl leading-11 lg:leading-15 text-primary text-center lg:hidden">
+        How to
+        <br />
+        <span className="text-secondary"> Get Started?</span>
+      </h1>
+      <h1 className="font-bold text-4xl lg:text-5xl leading-11 lg:leading-15 text-primary text-center hidden lg:block">
         How to
         <span className="text-secondary"> Get Started?</span>
       </h1>
 
-      <p className="my-5 leading-6 font-normal text-base lg:text-lg text-center">
+      <p className="my-5 leading-6 font-normal text-base lg:text-lg text-center px-6">
         It’s simpler than onboarding a single freelancer. We follow Scrum, and
         you get a <br /> dedicated project manager—so as CTO, all you need to do
         is create the backlog.

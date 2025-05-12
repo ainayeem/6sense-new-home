@@ -23,7 +23,7 @@ const GetResults = (): JSX.Element => {
 
   return (
     <div>
-      <div className="container lg:-mb-[35%] scale-100">
+      <div className="container lg:-mb-[25%] scale-100 lg:pt-32">
         <div
           className={`bg-[#F9F4EDE5] max-w-[1200px] lg:mx-auto lg:my-36 lg:mt-12 lg:pl-16 lg:rounded-lg grid grid-cols-1 lg:grid-cols-2 lg:gap-16 lg:py-24`}
         >

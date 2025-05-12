@@ -31,7 +31,7 @@ const RealTeams = (): JSX.Element => {
         className={`${styles.banner} max-w-[1200px] lg:mx-auto border border-[#BA8D4640] mx-4 lg:my-36 mt-16 px-4 lg:px-16 py-4 lg:py-11 rounded-2xl grid grid-cols-1 lg:grid-cols-2 lg:gap-8 my-0`}
       >
         <div className="lg:my-auto">
-          <h1 className="font-bold text-4xl lg:text-5xl leading-11 lg:leading-15 text-primary">
+          <h1 className="font-bold text-4xl lg:text-5xl leading-11 lg:leading-15 text-primary mb-6">
             Real Results from
             <br />
             <span className="text-secondary">Real Teams</span>
@@ -43,13 +43,13 @@ const RealTeams = (): JSX.Element => {
             return (
               <div
                 key={index}
-                className="p-6 rounded-lg bg-[#F9F4EDA3] text-primary"
+                className="p-6 rounded-2xl bg-[#F9F4EDA3] text-primary"
               >
                 <div className="flex gap-2 items-center font-medium text-xl lg:text-4xl">
                   <Icon />
                   <h1>{percentage}</h1>
                 </div>
-                <p className="font-normal text-xs mt-3 lg:text-base">
+                <p className="font-normal text-xs mt-3 lg:mt-0 lg:text-base">
                   {description}
                 </p>
               </div>
