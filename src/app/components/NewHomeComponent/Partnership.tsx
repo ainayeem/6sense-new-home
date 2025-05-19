@@ -23,7 +23,7 @@ const Partnership = (): JSX.Element => {
   return (
     <div className="container">
       <div
-        className={`bg-[#faf6f1] max-w-[1040px] lg:mx-auto lg:my-36 lg:pl-16 lg:rounded-2xl grid grid-cols-1 lg:grid-cols-2 lg:gap-16 relative justify-end`}
+        className={`bg-[#faf6f1] max-w-[1040px] 2xl:max-w-[1200px] lg:mx-auto lg:my-36 lg:pl-16 lg:rounded-2xl grid grid-cols-1 lg:grid-cols-2 lg:gap-16 relative justify-end`}
       >
         <Image
           src={plogo}
@@ -88,7 +88,7 @@ const Partnership = (): JSX.Element => {
             alt="Partnership"
             width={500}
             height={500}
-            className="lg:rounded-r-md w-full aspect-square"
+            className="lg:rounded-r-md w-full h-full"
           />
         </div>
       </div>
